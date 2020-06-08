@@ -5,6 +5,12 @@
     <meta name="author" content="Vladmir Francis">
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
     <title>Contact Info</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
 <center>
@@ -37,16 +43,16 @@
     <h3>Feedback</h3>
     <hr>
     <form method="post" action="mailto:ernefrancis@gmail.com" enctype="text/plain">
-        <label>Name</label>
+        <label for="clientName">Name</label>
         <input type="text" name="clientName">
         <br>
-        <label>Email</label>
+        <label for="clientEmail">Email</label>
         <input type="email" name="clientEmail">
         <br>
-        <label>Phone Number</label>
-        <input type="tel" name="clientName">
+        <label for="clientPhone">Phone Number</label>
+        <input type="tel" name="clientPhone">
         <br>
-        <label>Message</label><br>
+        <label for="message">Message</label><br>
         <textarea cols="50" rows="20" name="message"></textarea>
         <br>
         <input type="submit" value="Send">
