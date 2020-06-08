@@ -5,3 +5,30 @@
     border: cadetblue;
     border-width: thick;
 }
+
+body{
+    background-color: #cae8d5;
+}
+
+a{
+    color: #204051;
+}
+
+h1,h3,th{
+    color: #204051;
+}
+
+th{
+    font-size: 18.72px;
+    text-align: left;
+    border-style: none;
+    border-bottom-style: solid;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-top-color: #84a9ac;
+    width: 3%;
+}
